@@ -114,9 +114,14 @@ main {
 .link h2 {
     padding: 0rem 2rem;
     font-weight: 600;
+    text-decoration: none;
 }
 
-.link a{
+.link {
+    text-decoration: none;
+}
+
+.link img {
     text-decoration: none;
 }
 
