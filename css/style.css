@@ -245,7 +245,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
     .glass{
         width: 70%;
         height: auto;
@@ -263,12 +263,12 @@ main {
     }
 
     .circle2{
-        top: 100%;
+        top: 75%;
         left: 10%;   
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     .glass{
         width: 95%;
         height: 95%;
@@ -276,22 +276,27 @@ main {
         margin: 10rem
     }
     .link{
-        width: 30vh;
+        flex: 2;
+        width: 40vh;
     }
     .link h2{
-        padding: 0rem 4rem;
+        margin-right: 25%;
+    }
+    .link img {
+        margin-left: 30%;
     }
 
     .pro{
         padding: auto;
-        width: 30vh;
+        width: 40vh;
         margin: 5rem;
     }
     .pro img {
         top: -50%;
-        right: -1%;
+        right: 15%;
     }
     .pro h2{
+        margin-left: 20%;
     }
     .user img{
         margin-top: 2rem;
@@ -300,6 +305,10 @@ main {
         right: 2%;
     }
     .circle2{
-        top: 240%;
+        top: 180%;
     }
+}
+
+@media screen and (max-width: 500px) {
+
 }
