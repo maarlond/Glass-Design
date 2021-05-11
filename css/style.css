@@ -270,8 +270,8 @@ main {
 
 @media screen and (max-width: 900px) {
     .glass{
-        width: auto;
-        height: auto;
+        width: 95%;
+        height: 95%;
         display: block;
         margin: 10rem
     }
@@ -279,7 +279,7 @@ main {
         width: 30vh;
     }
     .link h2{
-        padding: 0rem 5rem;
+        padding: 0rem 4rem;
     }
 
     .pro{
@@ -288,15 +288,18 @@ main {
         margin: 5rem;
     }
     .pro img {
-        position: absolute;
         top: -50%;
-        right: -5%;
+        right: -1%;
+    }
+    .pro h2{
     }
     .user img{
         margin-top: 2rem;
     }
-    .circle2{
-        top: 230%;
+    .circle1{
+        right: 2%;
     }
-
+    .circle2{
+        top: 240%;
+    }
 }
